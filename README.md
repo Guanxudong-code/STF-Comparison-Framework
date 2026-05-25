@@ -53,4 +53,4 @@ Each algorithm is contained within its respective directory. Below are the speci
 To ensure all algorithms (especially the GUI and Numba-accelerated components) run smoothly, please ensure you have the following standard scientific packages installed:
 
 ```bash
-pip install numpy scipy rasterio scikit-learn matplotlib numba pyyaml
+pip install numpy scipy rasterio scikit-learn scikit-image matplotlib statsmodels numba pyyaml idlwrap tqdm progressbar2
