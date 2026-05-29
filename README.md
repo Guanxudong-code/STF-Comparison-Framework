@@ -42,7 +42,7 @@ Each algorithm is contained within its respective directory. Below are the speci
 ### 4. RASTFM
 * **Execution:** Run the `main.py` script located in the RASTFM folder.
 * **Configuration:** Input/output paths and parameters are modified directly within `main.py`.
-* **🌟 Special Note on RASTFM:** The original official implementation of RASTFM was written in MATLAB, and some core functional files were encrypted. This repository provides a **fully translated Python version**. The three previously encrypted core modules have been faithfully reconstructed in Python based on an in-depth understanding of the original paper. Furthermore, critical loops have been heavily optimized and accelerated using **Numba**.
+* **🌟 Special Note on RASTFM:** The original official implementation of RASTFM was written in MATLAB, and some core functional files were encrypted. This repository provides a **fully translated Python version**. The three previously encrypted core modules have been reconstructed in Python based on an my understanding of the original paper. Furthermore, critical loops have been heavily optimized and accelerated using **Numba**.
 
 ### 5. GAUSTF
 * **Execution:** Run the `GAUSTF.py` script (or `main.py` depending on the entry point).
